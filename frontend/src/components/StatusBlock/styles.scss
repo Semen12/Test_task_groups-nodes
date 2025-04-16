@@ -1,0 +1,16 @@
+.status{
+  text-align: center;
+  &-title{
+
+
+    font-size: 20px;
+  }
+  &-description{
+
+    font-size: 16px;
+   max-width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+  }
+}

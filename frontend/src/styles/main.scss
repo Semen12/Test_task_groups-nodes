@@ -1,0 +1,36 @@
+#root {
+    max-width: 1920px;
+  height: 100vh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+display: flex;
+   height: 100vh;
+
+}
+
+.column {
+
+flex-basis: 33%;
+  box-sizing: border-box;
+
+}
+
+.left-column, .middle-column, .right-column {
+  border-right: 1px solid #ddd;
+width: 33%;
+}
+
+.right-column {
+  border-right: none;
+}
+
+/* Пример стилей для выделения выбранных элементов */
+.group-list li.selected {
+  background-color: #e0f7fa;
+}
+
+.node-list li:hover {
+  background-color: #f1f1f1;
+}

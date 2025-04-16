@@ -1,0 +1,37 @@
+.node-details-empty {
+  text-align: center;
+}
+
+.node-details {
+  &-title {
+    text-align: center;
+  }
+  &-metrics {
+    text-align: center;
+    padding-left: 10px;
+  }
+  &-interface {
+    margin-left:10px;
+    &-name {
+     span{
+       font-weight: 500;
+     }
+    }
+
+    &-status {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      span{
+        margin-left: 10px;
+      }
+    }
+  }
+  &-admin{
+    margin-left: 10px;
+  }
+  &-applications{
+    margin-left: 10px;
+  }
+}
+

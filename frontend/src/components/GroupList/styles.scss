@@ -1,0 +1,14 @@
+.groups{
+  text-align: center;
+
+  &-title{
+    margin-bottom: 10px;
+  }
+  &-list{
+      padding-left: 0;
+  }
+  &-select{
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+}
